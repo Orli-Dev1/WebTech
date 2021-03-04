@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"), url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    font-size: medium;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(136, 74, 74);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: .9em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 3%;
+}
+
+.main-header {
+    background-color: #473d3d38;
+    background-image: url("g7.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-family: "Charlemagne Std Bold";
+    font-weight: bold;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 4em;
+}
