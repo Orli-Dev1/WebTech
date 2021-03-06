@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
-@font-face {
-    font-family: "Booter - Zero Zero";
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"), url("Fonts/Booter - Zero Zero.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
 * {
     box-sizing: border-box;
     font-family: Raleway;
@@ -45,14 +38,14 @@ body {
 }
 
 .main-header {
-    background-color: #473d3d38;
-    background-image: url("g7.jpeg");
+    background-color: #97858538;
+    background-image: url("Images/g7.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
 }
 
-.band-name {
+.site-name {
     text-align: center;
     margin: 0;
     font-family: "Charlemagne Std Bold";
@@ -60,6 +53,27 @@ body {
     color: white;
 }
 
-.band-name-large {
+.site-name-large {
     font-size: 4em;
+}
+
+.about-site-image {
+    float: left;
+    height: 400px;
+    width: 350px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.map-image {
+    padding: 2em;
+    height: 500px;
+    width: 1000px;
+    margin: 15px;
+}
+
+.about-size {
+    font-size: 6mm;
+    padding-right: 12mm;
+    word-spacing: .5mm;
 }
